@@ -4,10 +4,18 @@ html, body {
 }
 
 body {
-	background-color: black;
   font-family: Helvetica;
-
 }
+
+
+.page-container {
+  background-image: url("lukas-blazek-261682-unsplash.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 /* The hero image */
 .hero-image {
@@ -15,7 +23,7 @@ body {
     background-image: url("rawpixel-603666-unsplash.jpg");
 
     /* Set a specific height */
-    height: 27%;
+    height: 20%;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -51,30 +59,30 @@ body {
 
 
 h1 {
-  /*border: 2px solid red;*/
-  font-weight: bold;
-  
   color: white;
-  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.6);
   font-size: 70px;
-  /*padding: 30px 0px;*/
+  font-weight: bold;
+  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.6);
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgba(220, 220, 220, 0.4);
-  /*width: 900px;*/
-  /*width: 100%;*/
-  border: 10px solid red;
+  background-color: rgba(233, 233, 233, 0.6);
+  margin-top: 27px; 
+  width: 600px;
+  /*border: 0.3px solid black;*/
+  /*border-style: dotted;*/
 
 }
 
 p {
   text-align: center;
-  width: 800px;
-  padding-top: 30px;
+  font-family: Helvetica;
+  /*width: 800px;*/
+  padding: 12px 0px 0px 0px;
+  font-weight: bold;
   /*padding: 0px 30px;*/
   /*background-color: rgba(220, 220, 220, 0.4);*/
   /*border: 5px solid red;*/
@@ -82,11 +90,10 @@ p {
 }
 
 .navbar {
-	background-color: #525252;
-	/*border-bottom: 4px solid white;*/
-  /*border-top: 2px solid blue;*/
+	background-color: #1F1F1D;
+	border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-top: 4px solid rgba(0, 0, 0, 0.5);
   /*margin-top: -10px;*/
-
 }
 
 .navbar-brand {
