@@ -1,0 +1,21 @@
+
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+}
+
+.container-1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 70px;
+
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

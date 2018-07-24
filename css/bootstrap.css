@@ -591,7 +591,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
+  margin-right: -1
+  5px;
   margin-left: -15px;
 }
 
@@ -3842,10 +3843,12 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+
 }
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  
 }
 
 .nav-link.disabled {
