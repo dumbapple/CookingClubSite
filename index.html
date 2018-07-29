@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<link rel="shortcut icon" type="image/png" sizes="16x16" href="logofav.ico">
+<head>	
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>UBC Cooking Club • Home</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" sizes="16x16" href="logofav.ico">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- Material Design Bootstrap -->
 	<link href="css/mdb.min.css" rel="stylesheet">
-	<!-- Your custom styles (optional) -->
-	<link href="css/style.min.css" rel="stylesheet">
-
+	<!-- Custom styles -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<style type="text/css">
 	@media (min-width: 800px) and (max-width: 850px) {
 		.navbar:not(.top-nav-collapse) {
@@ -25,20 +25,21 @@
 		}
 	}
 </style>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
+
 </head>
 
 <body>
-
 	<!-- Navbar -->
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
 		<div class="container">
-
-			<!-- Brand -->
-			<a class="navbar-brand" href="index.html">
-				<strong>Home</strong>
-			</a>
-
 			<!-- Collapse -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 			aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +52,7 @@
 			<!-- Left -->
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Events
+					<a class="nav-link" href="index.html">Home
 						<span class="sr-only">(current)</span>
 					</a>
 				</li>
@@ -59,10 +60,10 @@
 					<a class="nav-link" href="gallery.html">Gallery</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="https://mdbootstrap.com/getting-started/" target="_blank">Our Team</a>
+					<a class="nav-link" href="schedule.html" target="_blank">Schedule</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Join Us</a>
+					<a class="nav-link" href="signup.html">Our Team</a>
 				</li>
 			</ul>
 
@@ -99,11 +100,21 @@
 			</h1>
 
 			<h4>
-				<strong>Join UBC's foodie community for fun events and delicious food!</strong>
+				<strong>Join UBC's foodie community for fun events and delicious eats!</strong>
 			</h4>
+			<!-- Begin MailChimp Signup Form -->
+			<div id="mc_embed_signup">
+				<form action="https://facebook.us14.list-manage.com/subscribe/post?u=f10d5f8c984b9e327a2ca8084&amp;id=921f2a892d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div id="mc_embed_signup_scroll">
+						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f10d5f8c984b9e327a2ca8084_921f2a892d" tabindex="-1" value=""></div>
+						<div class="clear"><input type="submit" value="Sign up for our mailing list" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-outline-white btn-lg"></div>
+					</div>
+				</form>
+			</div>
 
-			<a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-outline-white btn-lg">Sign up for our mailing list
-			</a>
+			<!--End mc_embed_signup-->
+
 		</div>
 		<!-- Content -->
 
@@ -117,42 +128,166 @@
 <main>
 	<div class="container">
 
-		<!--Section: Main info-->
-		<section class="mt-5 wow fadeIn">
+		<!--Section: Main features & Quick Start-->
+		<section>
+
+			<h3 class="h3 text-center mb-5 heading">About Us</h3>
+
+
 
 			<!--Grid row-->
-			<div class="row">
+			<div class="row wow fadeIn">
 
 				<!--Grid column-->
-				<div class="col-md-6 mb-4">
+				<div class="col-lg-6 col-md-12 px-4">
 
-					<img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg" class="img-fluid z-depth-1-half" alt="">
+					<!--First row-->
+					<div class="row">
+						<div class="col-1 mr-3">
+							<i class="fa fa-cutlery fa-2x black-text" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+
+							<h5 class="feature-title">Mission</h5>
+							<p class="dark-grey-text">Our goal is to create a welcoming environment where members can learn how to make tasty foods. We share our passion for food by providing guidance for anyone seeking to explore their inner chef.</p>
+						</div>
+					</div>
+					<hr>
+					<!--/First row-->
+
+					<div style="height:30px"></div>
+
+					<!--Second row-->
+					<div class="row">
+						<div class="col-1 mr-3">
+							<i class="fa fa-cutlery fa-2x black-text" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<h5 class="feature-title">Learn new skills, taste more flavours</h5>
+							<p class="dark-grey-text">We strive to cook new styles at every event, so get ready to open your tastebuds!
+							</p>
+						</div>
+					</div>
+					<hr>
+					<!--/Second row-->
+
+					<div style="height:30px"></div>
+
+					<!--Third row-->
+					<div class="row">
+						<div class="col-1 mr-3">
+							<i class="fa fa-cutlery fa-2x black-text" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<h5 class="feature-title">Unsure of your culinary skills? We're here to help</h5>
+							<p class="dark-grey-text">Our events are open to people of all skill levels. We lay out all the steps needed to create these dishes.</p>
+						</div>
+					</div>
+					<!--/Third row-->
 
 				</div>
-				<!--Grid column-->
+				<!--/Grid column-->
 
 				<!--Grid column-->
-				<div class="col-md-6 mb-4">
+				<div class="col-lg-6 col-md-12">
+					<img src="28169574_10215894291414052_673601006_o.jpg" id="about-img">
+					
+					
+					<!--/Grid column-->
 
-					<!-- Main heading -->
-					<h3 class="h3 mb-3">Material Design for Bootstrap</h3>
-					<p>This template is created with Material Design for Bootstrap (
-						<strong>MDB</strong> ) framework.</p>
-						<p>Read details below to learn more about MDB.</p>
+				</div>
+				<!--/Grid row-->
+
+			</section>
+			<!--Section: Main features & Quick Start-->
+			<!--Section: Main info-->
+			<section class="mt-5 wow fadeIn">
+
+				<!--Grid row-->
+				<div class="row">
+
+					<!--Grid column-->
+					<div class="col-md-6 mb-4">
+
+						<!--Carousel Wrapper-->
+						<div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+							<!--Indicators-->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-2" data-slide-to="1"></li>
+								<li data-target="#carousel-example-2" data-slide-to="2"></li>
+							</ol>
+							<!--/.Indicators-->
+							<!--Slides-->
+							<div class="carousel-inner" role="listbox">
+								<div class="carousel-item active">
+									<div class="view">
+										<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg" alt="First slide">
+										<div class="mask rgba-black-light"></div>
+									</div>
+									<div class="carousel-caption">
+										<h3 class="h3-responsive">This is the first title</h3>
+										<p>First text</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<!--Mask color-->
+									<div class="view">
+										<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg" alt="Second slide">
+										<div class="mask rgba-black-light"></div>
+									</div>
+									<div class="carousel-caption">
+										<h3 class="h3-responsive">Thir is the second title</h3>
+										<p>Secondary text</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<!--Mask color-->
+									<div class="view">
+										<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(108).jpg" alt="Third slide">
+										<div class="mask rgba-black-light"></div>
+									</div>
+									<div class="carousel-caption">
+										<h3 class="h3-responsive">This is the third title</h3>
+										<p>Third text</p>
+									</div>
+								</div>
+							</div>
+							<!--/.Slides-->
+							<!--Controls-->
+							<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+							<!--/.Controls-->
+						</div>
+						<!--/.Carousel Wrapper-->
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-md-6 mb-4">
+
+						<!-- Main heading -->
+						<h3 class="h3 mb-3">Past Events</h3>
+						<p>We've captured moments from past events to share our successes with the world.</p>
+						<p>Feel free to browse our photo collection of past events.</p>
 						<!-- Main heading -->
 
 						<hr>
 
 						<p>
-							<strong>400+</strong> material UI elements,
-							<strong>600+</strong> material icons,
-							<strong>74</strong> CSS animations, SASS files, templates, tutorials and many more.
-							<strong>Free for personal and commercial use.</strong>
+							Fried chicken, Korean ramen, rice burgers, ddeokbokki, chickpea corn fritters, and berry cheesecakes are just some of the delicious foods we have prepared in the past!
 						</p>
 
 						<!-- CTA -->
-						<a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-grey btn-md">Download
-							<i class="fa fa-download ml-1"></i>
+						<a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-grey btn-md">Gallery
+							<i class="fa fa-camera-retro ml-1" aria-hidden="true"></i>
 						</a>
 						<a target="_blank" href="https://mdbootstrap.com/components/" class="btn btn-grey btn-md">Live demo
 							<i class="fa fa-image ml-1"></i>
@@ -169,218 +304,11 @@
 
 			<hr class="my-5">
 
-			<!--Section: Main features & Quick Start-->
-			<section>
-
-				<h3 class="h3 text-center mb-5">About Us</h3>
-
-
-				<!--Grid row-->
-				<div class="row wow fadeIn">
-
-					<!--Grid column-->
-					<div class="col-lg-6 col-md-12 px-4">
-
-						<!--First row-->
-						<div class="row">
-							<div class="col-1 mr-3">
-								<i class="fa fa-cutlery fa-2x black-text" aria-hidden="true"></i>
-							</div>
-							<div class="col-10">
-
-								<h5 class="feature-title">Mission</h5>
-								<p class="grey-text">Our goal is to create a welcoming environment where members can learn how to cook and bake delicious, healthy food. We want to share our passion for food and provide guidance and necessary skills for anyone to explore their inner chef.</p>
-							</div>
-						</div>
-						<!--/First row-->
-
-						<div style="height:30px"></div>
-
-						<!--Second row-->
-						<div class="row">
-							<div class="col-1 mr-3">
-								<i class="fa fa-cutlery fa-2x black-text" aria-hidden="true"></i>
-							</div>
-							<div class="col-10">
-								<h5 class="feature-title">Learn new skills, taste more flavours</h5>
-								<p class="grey-text">We strive to cook new styles at every event, so get ready to open your tastebuds!
-								</p>
-							</div>
-						</div>
-						<!--/Second row-->
-
-						<div style="height:30px"></div>
-
-						<!--Third row-->
-						<div class="row">
-							<div class="col-1 mr-3">
-								<i class="fa fa-cutlery fa-2x black-text" aria-hidden="true"></i>
-							</div>
-							<div class="col-10">
-								<h5 class="feature-title">Unsure of your culinary skills? We're here to help</h5>
-								<p class="grey-text">Our events are open to people of all skill levels. We lay out all the steps needed to create these dishes.</p>
-							</div>
-						</div>
-						<!--/Third row-->
-
-					</div>
-					<!--/Grid column-->
-
-					<!--Grid column-->
-					<div class="col-lg-6 col-md-12">
-
-						<p class="h5 text-center mb-4">Watch our "5 min Quick Start" tutorial</p>
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
-						</div>
-					</div>
-					<!--/Grid column-->
-
-				</div>
-				<!--/Grid row-->
-
-			</section>
-			<!--Section: Main features & Quick Start-->
+			
 
 			<hr class="my-5">
 
-			<!--Section: Not enough-->
-			<section>
-
-				<h2 class="my-5 h3 text-center">Not enough?</h2>
-
-				<!--First row-->
-				<div class="row features-small mb-5 mt-3 wow fadeIn">
-
-					<!--First column-->
-					<div class="col-md-4">
-						<!--First row-->
-						<div class="row">
-							<div class="col-2">
-								<i class="fa fa-check-circle fa-2x indigo-text"></i>
-							</div>
-							<div class="col-10">
-								<h6 class="feature-title">Free for personal and commercial use</h6>
-								<p class="grey-text">Our license is user-friendly. Feel free to use MDB for both private as well as commercial projects.
-								</p>
-								<div style="height:15px"></div>
-							</div>
-						</div>
-						<!--/First row-->
-
-						<!--Second row-->
-						<div class="row">
-							<div class="col-2">
-								<i class="fa fa-check-circle fa-2x indigo-text"></i>
-							</div>
-							<div class="col-10">
-								<h6 class="feature-title">400+ UI elements</h6>
-								<p class="grey-text">An impressive collection of flexible components allows you to develop any project.
-								</p>
-								<div style="height:15px"></div>
-							</div>
-						</div>
-						<!--/Second row-->
-
-						<!--Third row-->
-						<div class="row">
-							<div class="col-2">
-								<i class="fa fa-check-circle fa-2x indigo-text"></i>
-							</div>
-							<div class="col-10">
-								<h6 class="feature-title">600+ icons</h6>
-								<p class="grey-text">Hundreds of useful, scalable, vector icons at your disposal.</p>
-								<div style="height:15px"></div>
-							</div>
-						</div>
-						<!--/Third row-->
-
-						<!--Fourth row-->
-						<div class="row">
-							<div class="col-2">
-								<i class="fa fa-check-circle fa-2x indigo-text"></i>
-							</div>
-							<div class="col-10">
-								<h6 class="feature-title">Fully responsive</h6>
-								<p class="grey-text">It doesn't matter whether your project will be displayed on desktop, laptop, tablet or mobile phone. MDB
-								looks great on each screen.</p>
-								<div style="height:15px"></div>
-							</div>
-						</div>
-						<!--/Fourth row-->
-					</div>
-					<!--/First column-->
-
-					<!--Second column-->
-					<div class="col-md-4 flex-center">
-						<img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone" class="z-depth-0 img-fluid">
-					</div>
-					<!--/Second column-->
-
-					<!--Third column-->
-					<div class="col-md-4 mt-2">
-						<!--First row-->
-						<div class="row">
-							<div class="col-2">
-								<i class="fa fa-check-circle fa-2x indigo-text"></i>
-							</div>
-							<div class="col-10">
-								<h6 class="feature-title">70+ CSS animations</h6>
-								<p class="grey-text">Neat and easy to use animations, which will increase the interactivity of your project and delight your visitors.
-								</p>
-								<div style="height:15px"></div>
-							</div>
-						</div>
-						<!--/First row-->
-
-						<!--Second row-->
-						<div class="row">
-							<div class="col-2">
-								<i class="fa fa-check-circle fa-2x indigo-text"></i>
-							</div>
-							<div class="col-10">
-								<h6 class="feature-title">Plenty of useful templates</h6>
-								<p class="grey-text">Need inspiration? Use one of our predefined templates for free.</p>
-								<div style="height:15px"></div>
-							</div>
-						</div>
-						<!--/Second row-->
-
-						<!--Third row-->
-						<div class="row">
-							<div class="col-2">
-								<i class="fa fa-check-circle fa-2x indigo-text"></i>
-							</div>
-							<div class="col-10">
-								<h6 class="feature-title">Easy installation</h6>
-								<p class="grey-text">5 minutes, a few clicks and... done. You will be surprised at how easy it is.
-								</p>
-								<div style="height:15px"></div>
-							</div>
-						</div>
-						<!--/Third row-->
-
-						<!--Fourth row-->
-						<div class="row">
-							<div class="col-2">
-								<i class="fa fa-check-circle fa-2x indigo-text"></i>
-							</div>
-							<div class="col-10">
-								<h6 class="feature-title">Easy to use and customize</h6>
-								<p class="grey-text">Using MDB is straightforward and pleasant. Components flexibility allows you deep customization. You will
-								easily adjust each component to suit your needs.</p>
-								<div style="height:15px"></div>
-							</div>
-						</div>
-						<!--/Fourth row-->
-					</div>
-					<!--/Third column-->
-
-				</div>
-				<!--/First row-->
-
-			</section>
-			<!--Section: Not enough-->
+			
 
 			<hr class="mb-5">
 
@@ -575,20 +503,10 @@
 
 		<!--Copyright-->
 		<div class="footer-copyright py-3">
-			© 2018 Copyright:
-			<a href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank"> MDBootstrap.com </a>
+			Powered by <a href="https://mdbootstrap.com/" target="_blank"> MDBootstrap</a><br>
+			Made by <a href="http://www.github.com/dumbapple" target="_blank">Andrew Chang</a>
 		</div>
 		<!--/.Copyright-->
-
-		<!-- Credit -->
-		<div class="footer-copyright py-3">
-			Website made by:
-			<a href="https://dumbapple.github.io/" target="_blank">
-				Andrew Chang 
-			</a>
-		</div>
-		<!-- Credit -->
-
 	</footer>
 	<!--/.Footer-->
 

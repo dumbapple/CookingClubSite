@@ -35,10 +35,7 @@
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
 		<div class="container">
 
-			<!-- Brand -->
-			<a class="navbar-brand" href="index.html">
-				<strong>Home</strong>
-			</a>
+			
 
 			<!-- Collapse -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -52,18 +49,21 @@
 			<!-- Left -->
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Events
+					<a class="nav-link" href="index.html">Home
 						<span class="sr-only">(current)</span>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">Gallery</a>
+					<a class="nav-link" href="gallery.html">Gallery</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="https://mdbootstrap.com/getting-started/" target="_blank">Our Team</a>
+					<a class="nav-link" href="schedule.html" target="_blank">Schedule</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Join Us</a>
+					<a class="nav-link" href="signup.html">Our Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="signup.html">Join Us</a>
 				</li>
 			</ul>
 
@@ -87,8 +87,8 @@
 </nav>
 <!-- Navbar -->
 
-
-<div class="container-1">
+<!-- Container -->
+	<div class="container-1">
 		<img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
 
 		<img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
@@ -99,9 +99,57 @@
 
 		<img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
 
+	</div>
+<!-- Container -->
+
+<div class="row">
+    <div class="col col-sm-4">
+        <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
+    </div>
+    <div class="col col-sm-4">
+        <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
+    </div>
+    <div class="col col-sm-4">
+        <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
+    </div>
 </div>
 
+<!--Footer-->
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
+	<!--Call to action-->
+	<div class="pt-4">
+		<a class="btn btn-outline-white" href="https://mdbootstrap.com/getting-started/" target="_blank" role="button">Download MDB
+			<i class="fa fa-download ml-2"></i>
+		</a>
+		<a class="btn btn-outline-white" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank" role="button">Start free tutorial
+			<i class="fa fa-graduation-cap ml-2"></i>
+		</a>
+	</div>
+	<!--/.Call to action-->
+
+	<hr class="my-4">
+
+	<!-- Social icons -->
+	<div class="pb-4">
+		<a href="https://www.facebook.com/ubccookingclub/" target="_blank">
+			<i class="fa fa-facebook mr-3"></i>
+		</a>
+
+		<a href="https://www.instagram.com/ubccookingclub/" target="_blank">
+			<i class="fa fa-instagram mr-3"></i>
+		</a>
+	</div>
+	<!-- Social icons -->
+
+	<!--Copyright-->
+	<div class="footer-copyright py-3">
+		Powered by <a href="https://mdbootstrap.com/" target="_blank"> MDBootstrap</a><br>
+		Made by <a href="http://www.github.com/dumbapple" target="_blank">Andrew Chang</a>
+	</div>
+	<!--/.Copyright-->
+</footer>
+<!--/.Footer-->
 
 
 
@@ -123,11 +171,4 @@
 <script type="text/javascript">
     // Animations initialization
     new WOW().init();
-</script>
-
-<!-- MDB Lightbox Init -->
-<script>
-	$(function () {
-		$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-	});
 </script>

@@ -1,21 +1,30 @@
 
 
 img {
-	width: 450px;
-	height: 300px;
-	margin: 10px;
+	max-width: 100%;
+	height: auto;
+	/*margin: 10px;*/
 }
 
 .container-1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 70px;
-
+	margin-top: 80px;
+	border: 2px solid blue;
 }
 
 .row {
 	display: flex;
 	flex-wrap: wrap;
+	/*justify-content: center;*/
+	border: 2px solid pink;
+}
+
+.col {
+	align-self: center;
+	border: 2px solid red;
+	display: flex;
 	justify-content: center;
+
 }
