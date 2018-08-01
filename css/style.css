@@ -13,7 +13,7 @@ body,
   background-color: #BD9E64; }
 
 .nav-item {
-	padding: 0px 5px;
+	padding: 0px 10px;
 }
 
 h1 {
@@ -60,8 +60,6 @@ h5 {
 	font-family: Arial;
 }
 
-
-
 .mb-4 {
 	font-weight: bold;
 }
@@ -69,4 +67,3 @@ h5 {
 .footer-copyright {
 	font-size: 0.8em;
 }
-
