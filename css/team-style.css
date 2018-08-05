@@ -1,0 +1,69 @@
+/* Required height of parents of the Full Page Intro and Intro itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(144, 0, 32, 0.9); 
+}
+
+.top-nav-collapse {
+  background-color: #BD9E64; }
+
+.nav-item {
+	padding: 0px 10px;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: Arial;
+	text-shadow: 3.5px 2px 5px black;
+}
+
+h4 {
+	font-family: Helvetica;
+	text-shadow: 2px 1px 2px black;
+}
+
+#about-img {
+	max-width: 100%;
+	max-height: 100%;
+    margin-top: 30px;
+    box-shadow: 4px 5px 5px grey;
+}
+
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+h5 {
+	font-family: "Helvetica";
+}
+
+.heading {
+	margin-top: 50px;
+	display: flex;
+	text-align: left;
+}
+
+.btn-outline-white {
+	margin-top: 20px;
+	text-shadow: 1px 2px 2px black;
+	font-family: Arial;
+}
+
+.mb-4 {
+	font-weight: bold;
+}
+
+.footer-copyright {
+	font-size: 0.8em;
+}
