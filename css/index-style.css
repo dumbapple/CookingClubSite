@@ -28,6 +28,7 @@ body,
 
 .carousel {
 	margin-top: 13px;
+	margin-right: 25px;
 }
 .carousel-inner {
 	border-radius: 30px;	
@@ -82,8 +83,10 @@ p {
 
 .btn-grey {
 	border-radius: 30px;
-	display: flex;
-	justify-content: center;
+}
+
+.btn-lg {
+	margin-top: 20px;
 }
 
 .mb-4 {
