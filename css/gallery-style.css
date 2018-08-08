@@ -3,14 +3,23 @@
 
 /* Required height of parents of the Full Page Intro and Intro itself */
 html,
-body,
-.view {
+body, {
   height: 100%;
+  background-color: black;
+}
+
+img {
+  width: 375px;
+  height: 250px;
+  
+  /*border-radius: 40px;*/
+  padding: 5px 5px;
 }
 
 /* Navbar animation */
 .navbar {
   background-color: rgba(144, 0, 32, 0.9); 
+  /*margin-bottom: 510px;*/
 }
 
 .top-nav-collapse {
@@ -25,6 +34,45 @@ body,
   .navbar {
     background-color: #1C2331; } }
 
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+#photos {
+  margin-top: 68px;
+}
+
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+
+
+
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
   background-color: #1C2331; }
@@ -35,18 +83,6 @@ body,
 
 
 
-
-.view {
-  height: auto;
-  margin-top: 91px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-img {
-	width: 375px;
-	height: 250px;
-}
 
 
 
