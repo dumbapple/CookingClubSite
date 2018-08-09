@@ -8,28 +8,24 @@ body, {
 }
 
 body {
+  font-family: Helvetica;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
 img {
-  width: 375px;
-  height: 250px;
-  
-  /*border-radius: 40px;*/
   padding: 5px 5px;
 }
 
 /* Navbar animation */
 .navbar {
   background-color: rgba(144, 0, 32, 0.9); 
-  /*margin-bottom: 510px;*/
 }
 
 .top-nav-collapse {
   background-color: #BD9E64; }
 
 .nav-item {
-	padding: 0px 10px;
+	padding: 0px 5px;
 }
 
 /* Adding color to the Navbar on mobile */
