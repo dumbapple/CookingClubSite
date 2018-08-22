@@ -1,0 +1,95 @@
+/* Required height of parents of the Full Page Intro and Intro itself */
+html,
+body,
+.view {
+  height: 100%; 
+  font-family: Helvetica;
+}
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(144, 0, 32, 0.9); 
+}
+
+.top-nav-collapse {
+  background-color: #BD9E64; }
+
+.nav-item {
+	padding: 0px 5px;
+}
+
+
+.row {
+	margin-bottom: 20px;
+}
+
+.col-9 {
+	padding-top: 10px;
+}
+
+
+img {
+	max-width:100%;
+	border-radius: 15px;
+}
+section {
+	margin-top: 120px;
+}
+
+.h3 {
+	justify-content: center;
+	font-weight: bold;
+}
+
+.heading {
+	margin-top: 100px;
+}
+
+.feature-title {
+	font-style: oblique;
+}
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+.heading {
+	margin-top: 50px;
+	display: flex;
+	text-align: left;
+}
+
+.event-section-header {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+.btn-outline-white {
+	margin-top: 20px;
+	text-shadow: 1px 2px 2px black;
+	border-radius: 40px;
+}
+
+.btn-grey {
+	border-radius: 30px;
+}
+
+.btn-lg {
+	margin-top: 20px;
+}
+
+.mb-4 {
+	font-weight: bold;
+}
+
+.footer-copyright {
+	font-size: 0.8em;
+}
