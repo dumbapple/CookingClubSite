@@ -2,8 +2,8 @@
 html,
 body,
 .view {
-  height: 100%; 
-  font-family: Helvetica;
+  height: 100%;
+  font-family: Arial, sans-serif;
 }
 
 /* Navbar animation */
@@ -12,7 +12,7 @@ body,
 }
 
 .top-nav-collapse {
-  background-color: #BD9E64; }
+  background-color: rgb(60, 60, 60); }
 
 .nav-item {
   padding: 0px 5px;
@@ -68,13 +68,16 @@ figcaption {
   margin-bottom: 50px;
 }
 
-
-
+.btn-outline-white {
+  margin-top: 20px;
+  text-shadow: 1px 2px 2px black;
+  border-radius: 40px
+}
 
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #1C2331; } }
+      background-color: rgba(144, 0, 32, 0.9); } }
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
@@ -82,4 +85,8 @@ figcaption {
 
 .footer-copyright {
   font-size: 0.8em;
+}
+
+i {
+  margin-left: 10px;
 }

@@ -1,118 +1,103 @@
-/* Required height of parents of the Full Page Intro and Intro itself */
 html,
 body,
 .view {
-  height: 100%; 
-  font-family: Helvetica;
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 
-/* Navbar animation */
 .navbar {
-  background-color: rgba(144, 0, 32, 0.9); 
+    background-color: rgba(144, 0, 32, 0.9);
 }
 
 .top-nav-collapse {
-	background-color: rgba(144, 0, 32, 0.9);
-	background-color: rgb(100, 100, 100);
-  /*background-color: #BD9E64; */
+    background-color: rgb(60, 60, 60);
+}
+
+/* Navbar colour on small screens */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgba(144, 0, 32, 0.9);
+    }
 }
 
 .nav-item {
-	padding: 0px 5px;
+    padding: 0 5px;
 }
 
 #about-img {
-	max-width: 100%;
-	max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     margin-top: 30px;
     border-radius: 30px;
 }
 
-
 .carousel {
-	margin-top: 13px;
-	margin-right: 25px;
+    margin-top: 13px;
+    margin-right: 25px;
 }
-.carousel-inner {
-	border-radius: 30px;	
+
+.carousel-inner, .d-block {
+    border-radius: 30px;
 }
 
 h1 {
-	font-size: 4em;
-	text-shadow: 2px 2px 5px black;
+    font-size: 4em;
+    text-shadow: 2px 2px 5px black;
 }
 
 .h3 {
-	margin-top: 48px;
-	font-weight: bold;
+    margin-top: 48px;
+    font-weight: bold;
 }
-
-h4 {
-	text-shadow: 2px 1px 2px black;
-}
-
-.feature-title {
-	font-style: oblique;
-}
-
-/* Adding color to the Navbar on mobile */
-@media only screen and (max-width: 768px) {
-  .navbar {
-    background-color: rgba(144, 0, 32, 0.9); } }
-
-/* Footer color for sake of consistency with Navbar */
-.page-footer {
-  background-color: #1C2331; }
 
 .heading {
-	margin-top: 50px;
-	display: flex;
-	text-align: left;
+    margin-top: 50px;
+    display: flex;
+    text-align: left;
 }
 
 .event-section-header {
-	text-align: center;
+    text-align: center;
+}
+
+h4 {
+    text-shadow: 2px 1px 2px black;
+}
+
+.feature-title {
+    font-style: oblique;
+}
+
+.page-footer {
+    background-color: #1C2331;
 }
 
 p {
-	text-align: justify;
+    text-align: justify;
 }
 
 .btn-outline-white {
-	margin-top: 20px !important;
-	text-shadow: 1px 2px 2px black !important;
-	border-radius: 40px !important;
-}
-
-input {
-	margin-top: 20px;
-	text-shadow: 1px 2px 2px black;
-	border-radius: 40px;
-}
-
-.team-button {
-	display: flex;
-	border: 1px solid red;
-	justify-content: center;
-
+    margin-top: 20px;
+    text-shadow: 1px 2px 2px black;
+    border-radius: 40px
 }
 
 .btn-grey {
-	border-radius: 30px;
+    border-radius: 30px;
 }
 
 .btn-lg {
-	margin-top: 20px !important;
+    margin-top: 20px !important;
 }
 
 .mb-4 {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .footer-copyright {
-	font-size: 0.8em;
+    font-size: 0.8em;
 }
 
 i {
-	margin-left: 10px;
+    margin-left: 10px;
 }

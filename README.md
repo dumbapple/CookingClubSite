@@ -1,4 +1,4 @@
-# ubc-cooking-club-website
-Website for UBC's Cooking Club.
+# CookingClubWebsite
+Website for UBC's Cooking Club
 
-Features components and animations from [MDBootstrap](https://mdbootstrap.com/).
+Features components and animations from MDBootstrap. Documentation can be found at https://mdbootstrap.com/.
