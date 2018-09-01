@@ -34,6 +34,7 @@ body,
 
 img {
     max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
 
@@ -45,6 +46,7 @@ section {
     justify-content: center;
     font-weight: bold;
 }
+
 
 .heading {
     margin-top: 50px;
