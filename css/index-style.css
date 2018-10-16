@@ -71,6 +71,10 @@ h4 {
     background-color: #1C2331;
 }
 
+/*#cook-culture {
+    color: rgba(85, 155, 255, 1);
+}*/
+
 p {
     text-align: justify;
 }
@@ -97,6 +101,21 @@ p {
     font-size: 0.8em;
 }
 
+#cook-culture-logo {
+    width: 160px;
+    height: 34.7px;
+}
+
+#whole-foods-logo {
+    width: 131px;
+    height: 87.5px;
+}
+
 i {
     margin-left: 10px;
+}
+
+h6 {
+    color: white;
+    margin-bottom: 1%;
 }
