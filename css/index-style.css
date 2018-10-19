@@ -85,7 +85,8 @@ p {
     border-radius: 40px
 }
 
-.btn-grey {
+.event-button, .gallery-button {
+    background-color: rgba(144, 0, 32, 0.9);
     border-radius: 30px;
 }
 
@@ -103,12 +104,19 @@ p {
 
 #cook-culture-logo {
     width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     height: 34.7px;
+    margin-bottom: 1%;
 }
 
-#whole-foods-logo {
-    width: 131px;
-    height: 87.5px;
+#wholefoodsmarket-logo {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100px;
 }
 
 i {
@@ -118,4 +126,8 @@ i {
 h6 {
     color: white;
     margin-bottom: 1%;
+}
+
+.stupid-line {
+    width: 50%;
 }
